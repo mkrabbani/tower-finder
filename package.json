@@ -1,0 +1,22 @@
+{
+  "name": "tower",
+  "version": "0.0.1",
+  "description": "An example Node command line app",
+  "main": "./index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/ --reporter dot"
+  },
+  "author": "Rabbani",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
